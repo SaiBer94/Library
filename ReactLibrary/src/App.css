@@ -1,0 +1,235 @@
+*{
+text-align: center;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+.Navbar{
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(139, 164, 153);
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 50px;
+    justify-content: center;
+}
+
+.Navbar button{
+    font-size: large;
+}
+
+
+.routesBtns{
+    padding: 10px;
+    border-radius: 50%;
+    border: 5px solid rgb(104, 136, 148);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.routesBtns:hover {
+    transform: scale(1.1);
+    border: 5px solid rgb(56, 131, 158);
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.5);
+    font-weight: bolder;
+}
+
+.Display{
+    text-align: center;
+}
+.bookCase {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.bookCard {
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 10%;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px black;
+    margin: 20px;
+    padding: 10px 20px 30px;
+    background-color: rgb(139, 164, 153);
+}
+
+.bookCard title{
+    color: yellow;
+}
+
+.userCase {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.userCard {
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 10%;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px black;
+    margin: 20px;
+    padding: 10px 20px 30px;
+    background-color: rgb(139, 164, 153);
+}
+
+.bookBorrowContainer{
+    align-items: center;
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 10%;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px black;
+    margin: auto;
+    background-color: rgb(139, 164, 153);
+    margin-bottom: 20px;
+}
+
+.borrowerContainer{
+    align-items: center;
+    gap: 10px;
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 10%;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px black;
+    margin: auto;
+    padding: 10px 20px 30px;
+    background-color: rgb(139, 164, 153);
+}
+
+.bookResultDisplay{
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 10%;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px black;
+    margin: auto;
+    padding: 10px 20px 30px;
+    background-color: rgb(139, 164, 153);
+}
+.bookTitle{
+    color: rgb(214, 223, 86);
+}
+
+.userRegister{
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 10%;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px black;
+    margin: auto;
+    padding: 10px 20px 30px;
+    background-color: rgb(139, 164, 153);
+}
+.userRegister *{
+    margin: 5px;
+}
+
+.bookRegister{
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 10%;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px black;
+    margin: auto;
+    padding: 25px;
+    background-color: rgb(139, 164, 153);
+}
+.bookRegister *{
+    margin: 5px;
+}
+
+.userDelContainer {width: 25%;
+    border: 1px solid black;
+    border-radius: 10%;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px black;
+    margin: auto;
+    padding: 25px;
+    background-color: rgb(139, 164, 153);
+}
+.userDelContainer *{
+    margin: 5px;
+}
+
+.bookDelContainer {
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 10%;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px black;
+    margin: auto;
+    padding: 25px;
+    background-color: rgb(139, 164, 153);
+}
+.bookDelContainer *{
+    margin: 5px;
+}
+
+.userDisplay{
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 10%;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px black;
+    margin: auto;
+    padding: 25px;
+    background-color: rgb(139, 164, 153);
+}
+.userDisplay *{
+    margin: 5px;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+  }
+  
+  .popup label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .popup input {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+  
+  .popup button {
+    background-color: rgb(139, 164, 153);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .popup button:hover {
+    background-color: rgb(139, 164, 153);
+  }
+  .popup *{
+    align-items: center;
+    margin: 20px;
+  }
+  
